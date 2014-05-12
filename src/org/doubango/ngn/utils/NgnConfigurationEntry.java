@@ -156,18 +156,18 @@ public class NgnConfigurationEntry {
 	public static final boolean DEFAULT_GENERAL_SEND_DEVICE_INFO = false;
 	
 	//	Identity
-	public static final String DEFAULT_IDENTITY_DISPLAY_NAME = "John Doe";
-	public static final String DEFAULT_IDENTITY_IMPU = "sip:johndoe@doubango.org";
-	public static final String DEFAULT_IDENTITY_IMPI = "johndoe";
-	public static final String DEFAULT_IDENTITY_PASSWORD = null;
+	public static final String DEFAULT_IDENTITY_DISPLAY_NAME = "myitm";
+	public static final String DEFAULT_IDENTITY_IMPU = "sip:myitm@sip2sip.info";
+	public static final String DEFAULT_IDENTITY_IMPI = "myitm";
+	public static final String DEFAULT_IDENTITY_PASSWORD = "198863";
 	
 	// Network
 	public static final int DEFAULT_NETWORK_REGISTRATION_TIMEOUT = 1700;
-	public static final String DEFAULT_NETWORK_REALM = "doubango.org";
+	public static final String DEFAULT_NETWORK_REALM = "sip:sip2sip.info";
 	public static final boolean DEFAULT_NETWORK_USE_WIFI = true;
 	public static final boolean DEFAULT_NETWORK_USE_3G = false;
 	public static final String DEFAULT_NETWORK_PCSCF_DISCOVERY = "None";
-	public static final String DEFAULT_NETWORK_PCSCF_HOST = "127.0.0.1";
+	public static final String DEFAULT_NETWORK_PCSCF_HOST = "proxy.sipthor.net";
 	public static final int DEFAULT_NETWORK_PCSCF_PORT = 5060;
 	public static final boolean DEFAULT_NETWORK_USE_SIGCOMP = false;
 	public static final String DEFAULT_NETWORK_TRANSPORT = "udp";
@@ -178,8 +178,8 @@ public class NgnConfigurationEntry {
 	// NAT Traversal
 	public static final int DEFAULT_NATT_HACK_AOR_TIMEOUT = 2000;
 	public static final boolean DEFAULT_NATT_HACK_AOR = false;
-	public static final boolean DEFAULT_NATT_USE_STUN = false;
-	public static final boolean DEFAULT_NATT_USE_ICE = false;
+	public static final boolean DEFAULT_NATT_USE_STUN = true;
+	public static final boolean DEFAULT_NATT_USE_ICE = true;
 	public static final boolean DEFAULT_NATT_STUN_DISCO = false;
 	public static final String DEFAULT_NATT_STUN_SERVER = "numb.viagenie.ca";
 	public static final int DEFAULT_NATT_STUN_PORT = 3478;
@@ -196,7 +196,7 @@ public class NgnConfigurationEntry {
     public static final String DEFAULT_QOS_PREF_VIDEO_SIZE = tmedia_pref_video_size_t.tmedia_pref_video_size_cif.toString();
 	
 	// Media
-    public static final String DEFAULT_MEDIA_PROFILE = tmedia_profile_t.tmedia_profile_default.toString();
+    public static final String DEFAULT_MEDIA_PROFILE = tmedia_profile_t.tmedia_profile_rtcweb.toString();
 	public static final int DEFAULT_MEDIA_CODECS = 
 		tdav_codec_id_t.tdav_codec_id_pcma.swigValue() |
 		tdav_codec_id_t.tdav_codec_id_pcmu.swigValue() |
