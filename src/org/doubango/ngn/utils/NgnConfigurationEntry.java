@@ -140,6 +140,10 @@ public class NgnConfigurationEntry {
 	public static final String RCS_SMSC = "RCS_SMSC." + TAG;
 	public static final String RCS_STATUS  = "RCS_STATUS." + TAG;
 	
+	//Devices
+	public static final String Devices_SIP_NUMBER  = "Devices_SIP_NUMBER." + TAG;
+	
+	
 	
 	//
 	//	Default values
@@ -255,5 +259,8 @@ public class NgnConfigurationEntry {
 	public static final boolean DEFAULT_RCS_USE_RLS = false;
 	public static final String DEFAULT_RCS_SMSC = "sip:+331000000000@doubango.org";
 	public static final NgnPresenceStatus DEFAULT_RCS_STATUS = NgnPresenceStatus.Online;
+	
+	// Devices 
+	public static final String DEFAULT_Devices_SIP_NUMBER = "sip:myitm1@sip2sip.info";
 	
 }
