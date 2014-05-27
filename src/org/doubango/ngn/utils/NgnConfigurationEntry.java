@@ -166,18 +166,18 @@ public class NgnConfigurationEntry {
 	public static final boolean DEFAULT_GENERAL_SEND_DEVICE_INFO = false;
 	
 	//	Identity
-	public static final String DEFAULT_IDENTITY_DISPLAY_NAME = "myitm";
-	public static final String DEFAULT_IDENTITY_IMPU = "sip:myitm@sip2sip.info";
-	public static final String DEFAULT_IDENTITY_IMPI = "myitm";
-	public static final String DEFAULT_IDENTITY_PASSWORD = "198863";
+	public static final String DEFAULT_IDENTITY_DISPLAY_NAME = "user1";
+	public static final String DEFAULT_IDENTITY_IMPU = "sip:user1@115.28.9.71";
+	public static final String DEFAULT_IDENTITY_IMPI = "user1";
+	public static final String DEFAULT_IDENTITY_PASSWORD = "user1";
 	
 	// Network
 	public static final int DEFAULT_NETWORK_REGISTRATION_TIMEOUT = 1700;
-	public static final String DEFAULT_NETWORK_REALM = "sip:sip2sip.info";
+	public static final String DEFAULT_NETWORK_REALM = "sip:115.28.9.71";
 	public static final boolean DEFAULT_NETWORK_USE_WIFI = true;
 	public static final boolean DEFAULT_NETWORK_USE_3G = false;
 	public static final String DEFAULT_NETWORK_PCSCF_DISCOVERY = "None";
-	public static final String DEFAULT_NETWORK_PCSCF_HOST = "proxy.sipthor.net";
+	public static final String DEFAULT_NETWORK_PCSCF_HOST = "115.28.9.71";
 	public static final int DEFAULT_NETWORK_PCSCF_PORT = 5060;
 	public static final boolean DEFAULT_NETWORK_USE_SIGCOMP = false;
 	public static final String DEFAULT_NETWORK_TRANSPORT = "udp";
