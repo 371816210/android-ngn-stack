@@ -144,10 +144,24 @@ public class NgnConfigurationEntry {
 	public static final String Devices_SIP_NUMBER  = "Devices_SIP_NUMBER." + TAG;
 	
 	
+     //Username 
+	public static final String USERNAME = "USERNAME."+TAG;
+	public static final String USER_PASSWORD = "USER_PASSWORD."+TAG;
+	public static final String DEVICE_REG ="DEVICE_REG."+TAG;
+	public static final String DEVICE_LOGIN ="DEVICE_LOGIN."+TAG;
+	
 	
 	//
 	//	Default values
 	//
+	
+	// Username Default
+	public static final String DEFAULT_USERNAME = "user1";
+	public static final String DEFAULT_USER_PASSWORD = "123456";
+	public static final boolean DEFAULT_DEVICE_REG = false;
+	public static final boolean DEFAULT_DEVICE_LOGIN = false;
+
+	
 	
 	// General
 	public static final boolean DEFAULT_GENERAL_SHOW_WELCOME_SCREEN = true;
