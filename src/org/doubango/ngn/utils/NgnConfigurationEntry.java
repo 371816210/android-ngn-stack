@@ -189,7 +189,7 @@ public class NgnConfigurationEntry {
 	public static final int DEFAULT_NETWORK_REGISTRATION_TIMEOUT = 1700;
 	public static final String DEFAULT_NETWORK_REALM = "sip:115.28.9.71";
 	public static final boolean DEFAULT_NETWORK_USE_WIFI = true;
-	public static final boolean DEFAULT_NETWORK_USE_3G = false;
+	public static final boolean DEFAULT_NETWORK_USE_3G = true;
 	public static final String DEFAULT_NETWORK_PCSCF_DISCOVERY = "None";
 	public static final String DEFAULT_NETWORK_PCSCF_HOST = "115.28.9.71";
 	public static final int DEFAULT_NETWORK_PCSCF_PORT = 5060;
@@ -201,13 +201,13 @@ public class NgnConfigurationEntry {
 	
 	// NAT Traversal
 	public static final int DEFAULT_NATT_HACK_AOR_TIMEOUT = 2000;
-	public static final boolean DEFAULT_NATT_HACK_AOR = false;
+	public static final boolean DEFAULT_NATT_HACK_AOR = true;
 	/**@deprecated use {@link DEFAULT_NATT_USE_STUN_FOR_SIP} instead.*/
-	public static final boolean DEFAULT_NATT_USE_STUN = false;
-	public static final boolean DEFAULT_NATT_USE_STUN_FOR_SIP = false;
-	public static final boolean DEFAULT_NATT_USE_ICE = false;
+	public static final boolean DEFAULT_NATT_USE_STUN = true;
+	public static final boolean DEFAULT_NATT_USE_STUN_FOR_SIP = true;
+	public static final boolean DEFAULT_NATT_USE_ICE = true;
 	public static final boolean DEFAULT_NATT_USE_STUN_FOR_ICE = true;
-	public static final boolean DEFAULT_NATT_USE_TURN_FOR_ICE = false;
+	public static final boolean DEFAULT_NATT_USE_TURN_FOR_ICE = true;
 	public static final boolean DEFAULT_NATT_STUN_DISCO = false;
 	public static final String DEFAULT_NATT_STUN_SERVER = "numb.viagenie.ca";
 	public static final int DEFAULT_NATT_STUN_PORT = 3478;
