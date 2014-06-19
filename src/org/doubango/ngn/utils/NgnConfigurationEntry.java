@@ -275,6 +275,6 @@ public class NgnConfigurationEntry {
 	public static final NgnPresenceStatus DEFAULT_RCS_STATUS = NgnPresenceStatus.Online;
 	
 	// Devices 
-	public static final String DEFAULT_Devices_SIP_NUMBER = "sip:myitm1@sip2sip.info";
+	public static final String DEFAULT_Devices_SIP_NUMBER = "sip:hfhe@115.28.9.71";
 	
 }
