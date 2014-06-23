@@ -149,6 +149,7 @@ public class NgnConfigurationEntry {
 	public static final String USER_PASSWORD = "USER_PASSWORD."+TAG;
 	public static final String DEVICE_REG ="DEVICE_REG."+TAG;
 	public static final String DEVICE_LOGIN ="DEVICE_LOGIN."+TAG;
+	public static final String USER_LOGIN ="USER_LOGIN."+TAG;
 	
 	
 	//
@@ -160,6 +161,7 @@ public class NgnConfigurationEntry {
 	public static final String DEFAULT_USER_PASSWORD = "123456";
 	public static final boolean DEFAULT_DEVICE_REG = false;
 	public static final boolean DEFAULT_DEVICE_LOGIN = false;
+	public static final boolean DEFAULT_USER_LOGIN = false;
 
 	
 	
